@@ -1,0 +1,39 @@
+INICIO DO PROJETO
+DATA DE INICIO: 23/09/2024
+REPONSÁVEL PELO PROJETO: MAURICIO DA CUNHA MELO
+
+OBJETIVO: DESENVOLVEMENTO DE UMA SISTEMA DE GERENCIAMENTO WEB PARA DEMANDAS ADMINISTRATIVAS
+
+ESTRUTURA DO PROJETO:
+
+SystemApi/
+│
+├── config/                      # Configurações
+│   └── conexaodb.js             # Configuração de conexão com o banco de dados
+│   
+├── public/                      # Arquivos estáticos
+│   ├── css/                     # Estilos
+│   │   └── style.css            # Arquivo CSS principal
+│   ├── js/                      # Scripts
+│   │   └── script.js            # Arquivo JS principal
+│   ├── pages/
+│   │    processos/                   # Scripts
+│   │      └── script.js            # Arquivo JS principal
+│   └── index.html               # Página de login
+│
+├── routes/                      # Rotas da API
+│   └── auth.js                  # Rotas de autenticação
+│
+├── controllers/                 # Lógica de autenticação
+│   └── authController.js        # Controlador de autenticação
+│
+├── models/                      # Modelos para banco de dados
+│   └── userModel.js             # Modelo do usuário
+│
+├── node_modules/                # Pacotes npm (gerado automaticamente após instalar dependências)
+│
+├── .env                         # Variáveis de ambiente (e.g., credenciais, secret keys)
+├── .gitignore                   # Arquivos e pastas a serem ignorados no controle de versão
+├── package.json                 # Dependências e scripts npm
+├── package-lock.json            # Versões fixas das dependências
+└── server.js                    # Ponto de entrada do servidor Node.js
