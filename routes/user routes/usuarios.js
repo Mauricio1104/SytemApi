@@ -3,7 +3,7 @@
 
 const express = require('express');
 const router = express.Router();
-const connection = require('../../bdconexao js/conexaobd');
+const connection = require('../../config/conexaodb');
 
 
 // Rota de login
