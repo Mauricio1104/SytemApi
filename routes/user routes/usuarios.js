@@ -1,10 +1,8 @@
 
 //ROTA PARA FAZER LOGIN DE USUARIOS
-
 const express = require('express');
 const router = express.Router();
 const connection = require('../../config/conexaodb');
-
 
 // Rota de login
 router.post('/login', async (req, res) => {

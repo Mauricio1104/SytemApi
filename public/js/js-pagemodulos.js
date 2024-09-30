@@ -5,6 +5,18 @@ const modal = document.getElementById('loginModal');
 const closeModalBtn = document.querySelector('.close-btn');
 const loginForm = document.getElementById('loginForm');
 
+//DECLARAÇÃO DOS ID's DOS MODULOS
+const pessoal     = document.getElementById('modulo-pessoal');
+const fiscal      = document.getElementById('modulo-fiscal');
+const contabil    = document.getElementById('modulo-contabil');
+const pc          = document.getElementById('modulo-pc');
+const processo    = document.getElementById('modulo-processo');
+const financeiro  = document.getElementById('modulo-financeiro');
+const gerencial   = document.getElementById('modulo-gerencial');
+const informatica = document.getElementById('modulo-informatica');
+const juridico    = document.getElementById('modulo-juridico');
+
+
 // Adiciona evento de clique em cada módulo para abrir a modal
 modulos.forEach(modulo => {
   modulo.addEventListener('click', () => {
