@@ -17,8 +17,8 @@ SystemApi/
 │   ├── js/                      # Scripts
 │   │   └── script.js            # Arquivo JS principal
 │   ├── pages/
-│   │    processos/                   # Scripts
-│   │      └── script.js            # Arquivo JS principal
+│   │    processos/              # Scripts
+│   │      └── script.js         # Arquivo JS principal
 │   └── index.html               # Página de login
 │
 ├── routes/                      # Rotas da API
